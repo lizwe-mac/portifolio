@@ -233,7 +233,7 @@ input, select, textarea {
 		@media screen and (min-width: 961px) and (max-width: 1620px) {
 
 			.container {
-				width: 960px;
+				width: 100%;
 			}
 
 		}
@@ -1971,7 +1971,7 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		border-radius: 0.35em;
+		border-radius: 5rem;
 		color: rgb(175, 174, 174) !important;
 		text-decoration: none;
 		padding: 0.75em 2em 0.75em 2em;
@@ -2343,6 +2343,39 @@ input, select, textarea {
 				width: 100%;
 			}
 /* Wide */
+*:hover{
+	/* outline: 1px solid red; */
+}
+.article-text{
+	font-size: 1.5rem;
+}
+.containers header{
+	/* border: 1px solid #666; */
+	/* width: 90%; */
+}
+@media screen and (min-width:561px) {
+	#portfolio-item{
+		display: grid;
+		grid: auto-flow / 1fr 1fr;
+		align-items: center;
+		justify-content: center;
+		gap: 2rem;
+	}
+
+	.item{
+		width: 90% !important;
+		
+	}
+
+	.containers{
+		width: 100%;
+		padding: 0 3rem;
+	}
+
+	.row-items{
+		width: 100%;
+	}
+}
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
 
@@ -2655,7 +2688,7 @@ input, select, textarea {
 	}
 
 	.container h2{
-		outline: 1px solid #666;
+		/* outline: 1px solid #666; */
 	}
 
 /* Mobile */
