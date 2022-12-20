@@ -36,9 +36,9 @@ body {
 	
 }
 
-*:hover{
+/* *:hover{
 	outline: 1px solid red;
-}
+} */
 
 .scroll-to-top{
 	position: fixed;
@@ -2373,6 +2373,13 @@ input, select, textarea {
 }
 .article-text{
 	font-size: 1.5rem;
+}
+.article-text1{
+	font-size: 0.8rem;
+}
+
+.article-header{
+	margin-top: 2rem;
 }
 .containers header{
 	/* border: 1px solid #666; */
